@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stats_background"
+    tools:context=".StatisticsActivity">
+
+    <Button
+        android:id="@+id/statisticsSaveButton"
+        android:layout_width="286dp"
+        android:layout_height="76dp"
+        android:contentDescription="@string/Exit_to_Menu"
+        android:text="@string/alien_statistics_save_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BackToMenu"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <TextView
+        android:id="@+id/Points"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/score_Board_points"
+        android:text="@string/alien_statistics_points_earned"
+        android:textAlignment="center"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Game"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/score_Board_game"
+        android:text="@string/alien_statistics_games_played"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Points" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/score_Board_time"
+        android:text="@string/alien_statistics_time_played"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Game"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/BackToMenu"
+        android:layout_width="286dp"
+        android:layout_height="76dp"
+        android:contentDescription="@string/Exit_to_Menu"
+        android:text="@string/Exit_to_Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Time" />
+
+    <TextView
+        android:id="@+id/ScoreBoard"
+        android:layout_width="341dp"
+        android:layout_height="102dp"
+        android:contentDescription="@string/score_board"
+        android:text="@string/score_board"
+        android:textAlignment="center"
+        android:textColor="?attr/colorBackgroundFloating"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/Points"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

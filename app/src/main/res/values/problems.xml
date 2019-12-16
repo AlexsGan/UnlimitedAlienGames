@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="problem_1">
+        An natural less or equal to 10 that is a multiple of 4.
+    </string>
+    <string name="problem_2">
+        An natural between 10 and 20 whose sum of digits is a factor of itself.
+    </string>
+    <string name="problem_3">
+        An natural less than 1000 whose sum of digit is a 26.
+    </string>
+
+    <array name="problem_bank">
+        <item>@string/problem_1</item>
+        <item>@string/problem_2</item>
+        <item>@string/problem_3</item>
+    </array>
+    <string name="problem_1_text">Problem 1</string>
+    <string name="problem_2_text">Problem 2</string>
+    <string name="problem_3_text">Problem 3</string>
+    <string name="problem_4_text">Problem 4</string>
+    <string name="problem_5_text">Problem 5</string>
+    <string name="problem_6_text">Problem 6</string>
+    <string name="problem_7_text">Problem 7</string>
+    <string name="problem_8_text">Problem 8</string>
+    <string name="problem_9_text">Problem 9</string>
+    <string name="problem_10_text">Problem 10</string>
+</resources>

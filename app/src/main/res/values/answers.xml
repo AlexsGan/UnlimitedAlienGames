@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="problem_1_ans">
+        0
+    </string>
+    <string name="problem_2_ans">
+        18
+    </string>
+    <string name="problem_3_ans">
+        989
+    </string>
+</resources>

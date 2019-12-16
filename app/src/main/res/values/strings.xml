@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Unlimited Alien Games</string>
+    <string name="alien_guesser">Go To Alien Guesser</string>
+    <string name="alien_shooter">Go To Alien Shooter</string>
+    <string name="alien_shooter_instruction_title">How to Play Alien Shooter?</string>
+    <string name="alien_shooter_instructions">In this game, you will be shooting evil aliens that
+    you happen to see. \n\nA normal alien is a friendly alien that you should not shoot. \n\nAn evil
+        alien is a devil alien that you should shoot. \n\nThe purpose of this game is to click
+        as many
+    evil aliens that you see as possible.\n\nEach successful hit on an evil alien gets you
+        one point while an
+    accidental hit to a normal alien loses you 2 points.\n\nYou will have 30 seconds to shoot as
+        many
+    evil aliens as you can and score as high as possible.\n\n
+        Furthermore, this game has 3 customizations including the time you have to shoot aliens,
+        the colour of the friendly aliens and the colour of the target evil alien. \n\n
+        Now click on the customize button to start your alien shooter journey!!\n\nGood Luck!!
+    </string>
+    <string name="BonusTitleHeader">Bonus Game</string>
+    <string name="BonusRoundDescription">Congratulations!! \n\n\nYou have scored more than 5 points
+    and unlocked the bonus round to get more points!!</string>
+    <string name="Shoot">Shoot</string>
+    <string name="Canon">Canon</string>
+    <string name="Ufo">Ufo</string>
+    <string name="Points">Points :</string>
+    <string name="Bullet1">Bullet1</string>
+    <string name="Bullet2">Bullet2</string>
+    <string name="Bullet3">Bullet3</string>
+    <string name="Bullet4">Bullet4</string>
+    <string name="Bullet5">Bullet5</string>
+    <string name="BonusStarButton">Start Bonus Round</string>
+    <string name="BonusResult">0</string>
+    <string name="ExitBonus">Exit Bonus Round</string>
+    <string name="Game_Over">Game Over</string>
+    <string name="Final_Point">0</string>
+    <string name="Final_Friendly_Alien">0</string>
+    <string name="Final_Evil_Alien">0</string>
+    <string name="Restart">Restart</string>
+    <string name="Back_to_Menu">Back to Menu</string>
+    <string name="Game_Info">Total Points: </string>
+    <string name="shooter_customize_time">Customize Time</string>
+    <string name="shooter_customize_friendly_alien">Choose Friendly Alien</string>
+    <string name="shooter_customize_evil_alien">Customize Evil Alien</string>
+    <string name="FIFTEEN">15 seconds</string>
+    <string name="THIRTY">30 seconds</string>
+    <string name="RED">Red</string>
+    <string name="correct_hits">Evil Aliens Shot:</string>
+    <string name="incorrect_hits">Friendly Aliens Shot:</string>
+    <string name="BLACK">Black</string>
+    <string name="YELLOW">Yellow</string>
+    <string name="BLUE">Blue</string>
+    <string name="Customize">Customize and Replay</string>
+    <string name="Customized">Customize</string>
+    <string name="alien_painter">Go To Alien Painter</string>
+    <string name="alien_background">Alien Background</string>
+    <string name="alien_shooter_image">Alien</string>
+    <string name="timer_default">Time: </string>
+    <string name="alien_shooter_timer">Start Game</string>
+    <string name="alien_shooter_points">Points: </string>
+    <string name="alien_shooter_save">Alien Shooter Save</string>
+    <string name="alien_shooter_exit">Alien Shooter Exit</string>
+    <string name="submit">Submit</string>
+    <string name="answer_hint">Please enter your guess</string>
+    <string name="next">Next</string>
+    <string name="ret_button">Return</string>
+    <string name="take_break">Take a Break</string>
+    <string name="next_problem_message">Click "Next" for the next problem.</string>
+    <string name="game_finish_message">
+        The game has finished and the result has been saved.
+        Click "Return" to go to the main menu.
+    </string>
+    <string name="return_to_menu">
+        Return To Menu
+    </string>
+    <string name="proceed_to_shooter">
+        Proceed to game with chosen customizations
+    </string>
+    <string name="guesser_welcome">
+        Welcome to AlienGuesser, in this game you will be presented various problems.
+        Your goal is to make deduction based on the problem and guess the correct answer
+        from a few possible answer. Each correct guess will award you two points, each incorrect
+        guess will deduct one point. Good Luck!
+        \n
+        \n
+        Click "Next" to begin guessing.
+    </string>
+    <string name="alien_painter_moves">Number of Moves: </string>
+    <string name="alien_painter_timer">Time Passed: </string>
+    <string name="alien_painter_white">white</string>
+    <string name="alien_painter_black">black</string>
+    <string name="alien_painter_black_clicked">blackclicked</string>
+    <string name="alien_painter_white_clicked">whiteclicked</string>
+    <string name="correct_guess_message">Congratulations, you have made the correct guess!</string>
+    <string name="wrong_guess_message">Unfortunate, you have made an incorrect guess.</string>
+    <string name="alien_guesser_score">Score: </string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_ok">Successfully registered!</string>
+    <string name="register_fail">Username taken or invalid.</string>
+    <string name="login_fail">Incorrect username or password.</string>
+    <string name="alien_painter_exit">Exit</string>
+    <string name="alien_painter_retry">Retry</string>
+    <string name="title_activity_customize">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="alien_painter_language_english">切换到英语</string>
+    <string name="alien_painter_language_chinese">Switch to Chinese</string>
+    <string name="alien_painter_exit_chinese">退出</string>
+    <string name="alien_painter_retry_chinese">重来</string>
+    <string name="alien_painter_scoreboard_button">Summary</string>
+    <string name="alien_painter_scoreboard_button_chinese">统计</string>
+    <string name="alien_painter_points">Points:</string>
+    <string name="alien_painter_instructions">The Alien challenges you to a battle of wits! Clicking a button changes its and all nearby buttons\' colours. Your objective is to change all the buttons\' colours to black. You have 30 seconds to do so, and you accumulate points base on how many moves you have made, and how much time you have left. Bonus Points if you complete the challenge under 10 moves</string>
+    <string name="alien_painter_instructions_chinese">外星人决定要挑战你的智慧！点击一个按钮时会改变它和它周围按钮的颜色。你的目标是把所有按钮的颜色变成黑色。你有30秒时间限制，并且会根据步数和剩余时间获得分数。10步以内完成挑战可获得额外点数。</string>
+    <string name="alien_painter_replay">Replay</string>
+    <string name="alien_painter_replay_chinese">回放</string>
+    <string name="score_Board_points">Points</string>
+    <string name="alien_painter_scoreboard_save">Save Statistics</string>
+    <string name="alien_painter_scoreboard_save_chinese">保存数据</string>
+    <string name="score_Board_time">Time Played</string>
+    <string name="score_Board_game">Board Game</string>
+    <string name="Exit_to_Menu">Back to Menu</string>
+    <string name="score_board">Score Board</string>
+    <string name="alien_main_statistics_button">Statistics and Saving</string>
+    <string name="alien_statistics_games_played">Total Games Played</string>
+    <string name="alien_statistics_points_earned">Total Points Earned:</string>
+    <string name="alien_statistics_time_played">Total Time Played:</string>
+    <string name="alien_statistics_save_button">Save Statistics</string>
+    <string name="choose_button_text">Choose</string>
+    <string name="choose_mode">Please chose mode</string>
+    <string name="random_welcome">random</string>
+</resources>

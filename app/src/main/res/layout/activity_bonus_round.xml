@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BonusLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bonus_background"
+    tools:context=".alienshooter.bonusShooterGame.BonusRound">
+
+    <Button
+        android:id="@+id/Shoot"
+        android:layout_width="394dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/Shoot"
+        android:text="@string/Shoot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Canon"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/Canon"
+        android:layout_width="62dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="612dp"
+        android:background="@drawable/canonalien"
+        android:contentDescription="@string/Canon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/canonalien" />
+
+    <ImageView
+        android:id="@+id/Ufo"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="124dp"
+        android:background="@drawable/ufo"
+        android:contentDescription="@string/Ufo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ufo" />
+
+    <TextView
+        android:id="@+id/Points"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/Points"
+        android:text="@string/Points"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Bullet1"
+        android:layout_width="24dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bullet"
+        android:contentDescription="@string/Bullet1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bullet" />
+
+    <ImageView
+        android:id="@+id/Bullet2"
+        android:layout_width="24dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bullet"
+        android:contentDescription="@string/Bullet2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bullet" />
+
+    <ImageView
+        android:id="@+id/Bullet3"
+        android:layout_width="24dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bullet"
+        android:contentDescription="@string/Bullet3"
+        app:layout_constraintBottom_toBottomOf="@+id/Shoot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"
+        app:srcCompat="@drawable/bullet" />
+
+    <ImageView
+        android:id="@+id/Bullet4"
+        android:layout_width="24dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bullet"
+        android:contentDescription="@string/Bullet4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bullet" />
+
+    <ImageView
+        android:id="@+id/Bullet5"
+        android:layout_width="24dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bullet"
+        android:contentDescription="@string/Bullet5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bullet" />
+
+    <TextView
+        android:id="@+id/BonusResult"
+        android:layout_width="288dp"
+        android:layout_height="240dp"
+        android:contentDescription="@string/BonusResult"
+        android:text="@string/BonusResult"
+        app:layout_constraintBottom_toBottomOf="@+id/Shoot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ExitBonus"
+        android:text="@string/ExitBonus"
+        app:layout_constraintBottom_toBottomOf="@+id/Shoot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

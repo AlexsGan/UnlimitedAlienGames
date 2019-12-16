@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alienshooter.instructionPages.GameOverActivity">
+
+    <TextView
+        android:id="@+id/FriendlyAlien"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/Final_Friendly_Alien"
+        app:layout_constraintBottom_toTopOf="@+id/EvilAlien"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Points"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/GameOver"
+        android:layout_width="210dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/Game_Over"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/Points"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Points"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/Final_Friendly_Alien"
+        app:layout_constraintBottom_toTopOf="@+id/FriendlyAlien"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GameOver" />
+
+    <Button
+        android:id="@+id/Restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Restart"
+        app:layout_constraintBottom_toTopOf="@+id/Customize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EvilAlien"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/Customize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Customize"
+        app:layout_constraintBottom_toTopOf="@+id/BackToMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Restart" />
+
+    <Button
+        android:id="@+id/BackToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="144dp"
+        android:text="@string/Back_to_Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Customize" />
+
+    <TextView
+        android:id="@+id/EvilAlien"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/Final_Evil_Alien"
+        app:layout_constraintBottom_toTopOf="@+id/Restart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FriendlyAlien" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

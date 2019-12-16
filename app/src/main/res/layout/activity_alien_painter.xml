@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stats_background"
+    tools:context=".alienpainter.AlienPainterActivity">
+
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/alien_painter_exit"
+        app:layout_constraintBaseline_toBaselineOf="@+id/retryButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/painterTextView1"
+        android:layout_width="180dp"
+        android:layout_height="26dp"
+        android:text="@string/alien_painter_moves"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painterTextView3" />
+
+    <TextView
+        android:id="@+id/painterTextView2"
+        android:layout_width="180dp"
+        android:layout_height="24dp"
+        android:text="@string/alien_painter_timer"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painterTextView1" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_00"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="96dp"
+        android:adjustViewBounds="true"
+        android:background="?attr/actionBarDivider"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/painterImageButton_01"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painterTextView2" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_01"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="96dp"
+        android:adjustViewBounds="true"
+        android:background="?attr/actionBarDivider"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/painterImageButton_02"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/painterImageButton_00"
+        app:layout_constraintTop_toBottomOf="@+id/painterTextView2" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_02"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="96dp"
+        android:adjustViewBounds="true"
+        android:background="?attr/actionBarDivider"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/painterImageButton_01"
+        app:layout_constraintTop_toBottomOf="@+id/painterTextView2" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_10"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/painterImageButton_20"
+        app:layout_constraintEnd_toStartOf="@+id/painterImageButton_11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painterImageButton_00" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_11"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/painterImageButton_21"
+        app:layout_constraintEnd_toStartOf="@+id/painterImageButton_12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/painterImageButton_10"
+        app:layout_constraintTop_toBottomOf="@+id/painterImageButton_01" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_12"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/painterImageButton_22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/painterImageButton_11"
+        app:layout_constraintTop_toBottomOf="@+id/painterImageButton_02" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_20"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="430dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/painterImageButton_21"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_21"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="430dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/painterImageButton_22"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/painterImageButton_20"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/painterImageButton_22"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="430dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_launcher_foreground"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/painterImageButton_21"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/retryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/alien_painter_retry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painterTextView2" />
+
+    <Button
+        android:id="@+id/languageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/alien_painter_language_chinese"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painterTextView2" />
+
+    <Button
+        android:id="@+id/scoreBoardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/alien_painter_scoreboard_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/painterTextView3"
+        android:layout_width="180dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/alien_painter_points"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/painterInstructionsView"
+        android:layout_width="370dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/painterImageButton_21" />
+
+    <Button
+        android:id="@+id/replayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/alien_painter_replay"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
